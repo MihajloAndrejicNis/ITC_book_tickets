@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rezervacijakarata"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:9:5-30:19
+23        android:name="com.example.rezervacijakarata.App"
+23-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:10:9-28
+24        android:allowBackup="true"
+24-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:11:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.1] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\cdfea8f3da9d3d8e26bbb73a40c2de98\core-1.3.1\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:13:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:14:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.RezervacijaKarata" >
+33-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:17:9-55
+34        <meta-data
+34-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:19:9-20:70
+35            android:name="com.google.android.geo.API_KEY"
+35-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:19:20-65
+36            android:value="AIzaSyC9CqIrU_N6ecsHZPu_nTYP0rrJTfcwj6w" />
+36-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:20:13-68
+37
+38        <activity android:name="com.example.rezervacijakarata.activities.PreviewEventActivity" />
+38-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:22:9-68
+38-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:22:19-66
+39        <activity android:name="com.example.rezervacijakarata.activities.MainActivity" >
+39-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:23:9-29:20
+39-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:23:19-58
+40            <intent-filter>
+40-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:24:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:25:17-69
+41-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:27:17-77
+43-->D:\REZERVACIJA KARATA\Rezervacija-Karata\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <!-- Needs to be explicitly declared on P+ -->
+47        <uses-library
+47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+48            android:name="org.apache.http.legacy"
+48-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+49            android:required="false" />
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\20c77c3286ed68db6c45d651dc5a413c\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+50
+51        <activity
+51-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+52            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+52-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+53            android:excludeFromRecents="true"
+53-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+56        <!--
+57            Service handling Google Sign-In user revocation. For apps that do not integrate with
+58            Google Sign-In, this service will never be started.
+59        -->
+60        <service
+60-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+61            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+61-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+62            android:exported="true"
+62-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+63            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+63-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+64            android:visibleToInstantApps="true" />
+64-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\676f483ead82b2750302cc89c7fbf5f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\d92a27efcac738b4f280b9ad0c07bda7\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\fddb1ae14a7a9b9a3acdaeb1009a8259\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\fddb1ae14a7a9b9a3acdaeb1009a8259\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\mihaj\.gradle\caches\transforms-2\files-2.1\fddb1ae14a7a9b9a3acdaeb1009a8259\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+74    </application>
+75
+76</manifest>

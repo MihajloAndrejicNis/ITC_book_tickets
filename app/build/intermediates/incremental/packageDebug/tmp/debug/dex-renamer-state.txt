@@ -1,0 +1,4 @@
+#Sun Dec 20 19:03:34 CET 2020
+base.0=D\:\\REZERVACIJA KARATA\\Rezervacija-Karata\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

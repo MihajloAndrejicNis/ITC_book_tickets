@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PreviewEventActivity"
+    android:padding="16dp">
+
+    
+    <TextView
+        
+        android:id="@+id/pair"
+        
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:textStyle= "bold|italic"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_address"
+
+        app:layout_constraintTop_toBottomOf="@id/pair"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_place"
+        android:textStyle="bold"
+
+
+        android:layout_marginTop="8dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/address"
+
+        app:layout_constraintTop_toBottomOf="@id/about_address"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+
+        android:layout_marginTop="3dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_start"
+
+        app:layout_constraintTop_toBottomOf="@id/address"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_start"
+        android:textStyle="bold"
+
+        android:layout_marginTop="8dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/start"
+
+        app:layout_constraintTop_toBottomOf="@id/about_start"
+        app:layout_constraintStart_toStartOf="@id/about_start"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+
+        android:layout_marginTop="3dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_end"
+
+        app:layout_constraintTop_toTopOf="@+id/about_start"
+        app:layout_constraintBottom_toBottomOf="@+id/about_start"
+        app:layout_constraintStart_toEndOf="@+id/about_start"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="@string/about_end"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/end"
+
+        app:layout_constraintTop_toBottomOf="@id/about_end"
+        app:layout_constraintStart_toStartOf="@id/about_end"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_type"
+
+        app:layout_constraintTop_toBottomOf="@+id/end"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_type"
+        android:textStyle="bold"
+
+        android:layout_marginTop="8dp"
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/type"
+
+        app:layout_constraintTop_toBottomOf="@id/about_type"
+        app:layout_constraintStart_toStartOf="@id/about_type"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+
+        android:layout_marginTop="3dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_price"
+
+        app:layout_constraintTop_toBottomOf="@+id/type"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="@string/about_price"
+        android:layout_marginTop="8dp"
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/price"
+
+        app:layout_constraintTop_toBottomOf="@id/about_price"
+        app:layout_constraintStart_toStartOf="@id/about_price"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+
+        android:layout_marginTop="3dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_tickets"
+
+        app:layout_constraintTop_toBottomOf="@+id/price"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_tickets"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/tickets"
+
+        app:layout_constraintTop_toBottomOf="@id/about_tickets"
+        app:layout_constraintStart_toStartOf="@id/about_tickets"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+
+        android:layout_marginTop="3dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_available_tickets"
+
+        app:layout_constraintTop_toTopOf="@+id/about_tickets"
+        app:layout_constraintBottom_toBottomOf="@+id/about_tickets"
+        app:layout_constraintStart_toEndOf="@+id/about_tickets"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_available_tickets"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/available_tickets"
+
+        app:layout_constraintTop_toBottomOf="@id/about_available_tickets"
+        app:layout_constraintStart_toStartOf="@id/about_available_tickets"
+        android:textStyle="italic"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+
+        android:id="@+id/book"
+
+        app:layout_constraintTop_toBottomOf="@id/available_tickets"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/unbook"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:text="book"
+
+        />
+
+    <Button
+
+        android:id="@+id/unbook"
+
+        app:layout_constraintTop_toTopOf="@id/book"
+        app:layout_constraintBottom_toBottomOf="@id/book"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/book"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="unbook"
+
+        />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        app:layout_constraintTop_toBottomOf="@id/unbook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/map"
+        tools:context=".activities.PreviewEventActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

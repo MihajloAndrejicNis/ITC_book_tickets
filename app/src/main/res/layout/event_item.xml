@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+
+    <TextView
+
+        android:id="@+id/about_pair_item"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_teams_item"
+        android:textStyle= "bold"
+
+
+
+        />
+    <TextView
+
+        android:id="@+id/pair"
+
+        app:layout_constraintTop_toBottomOf="@+id/about_pair_item"
+        app:layout_constraintStart_toStartOf="@+id/about_pair_item"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textStyle= "italic"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_time_item"
+
+        app:layout_constraintTop_toBottomOf="@+id/pair"
+        app:layout_constraintStart_toStartOf="@+id/pair"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_start"
+        android:layout_marginTop="8dp"
+        android:textStyle= "bold"
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/time"
+
+        app:layout_constraintTop_toBottomOf="@id/about_time_item"
+        app:layout_constraintStart_toStartOf="@id/about_time_item"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="3dp"
+        android:textStyle= "italic"
+
+        />
+
+    <TextView
+
+        android:id="@+id/about_time_end_item"
+
+        app:layout_constraintTop_toTopOf="@+id/about_time_item"
+        app:layout_constraintBottom_toBottomOf="@+id/about_time_item"
+        app:layout_constraintStart_toEndOf="@+id/about_time_item"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_end"
+        android:textStyle= "bold"
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/time_end"
+
+        app:layout_constraintTop_toBottomOf="@id/about_time_end_item"
+        app:layout_constraintStart_toStartOf="@id/about_time_end_item"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle= "italic"
+
+
+        />
+
+
+    <TextView
+
+        android:id="@+id/about_type_item"
+
+        app:layout_constraintTop_toBottomOf="@+id/time"
+        app:layout_constraintStart_toStartOf="@+id/time"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_type"
+        android:layout_marginTop="8dp"
+        android:textStyle= "bold"
+
+
+
+        />
+
+
+    <TextView
+
+        android:id="@+id/type"
+
+        app:layout_constraintTop_toBottomOf="@id/about_type_item"
+        app:layout_constraintStart_toStartOf="@id/about_type_item"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="3dp"
+        android:textStyle= "italic"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

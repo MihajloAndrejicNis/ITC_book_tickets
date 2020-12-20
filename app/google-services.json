@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "574819435959",
+    "project_id": "prodaja-karata",
+    "storage_bucket": "prodaja-karata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574819435959:android:32b09144244e6bc2a7d432",
+        "android_client_info": {
+          "package_name": "com.example.rezervacijakarata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574819435959-btrcmt6ag4qh2l09nqajvvil5ubn17eo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rezervacijakarata",
+            "certificate_hash": "aaa77f6d515af9e2da8dea40361ebc9aee183694"
+          }
+        },
+        {
+          "client_id": "574819435959-2mt8g60si3uafqtofknoakvpm5u3bpk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqQxG3K9MI6vbSexVoK8zM7Xak2uQoYMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574819435959-2mt8g60si3uafqtofknoakvpm5u3bpk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

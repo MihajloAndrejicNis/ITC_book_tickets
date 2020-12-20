@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rezervacija karata</string>
+    <string name="signOutBtn">Sign Out</string>
+    <string name="about_place">Place:</string>
+    <string name="about_start">Match begins at:</string>
+    <string name="about_end">Match ends in:</string>
+    <string name="about_type">Sport:</string>
+    <string name="about_price">Price:</string>
+    <string name="about_tickets">Tickets:</string>
+    <string name="about_available_tickets">Available tickets:</string>
+    <string name="about_teams_item">Teams:</string>
+</resources>

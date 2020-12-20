@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">574819435959-2mt8g60si3uafqtofknoakvpm5u3bpk8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">574819435959</string>
+    <string name="google_api_key" translatable="false">AIzaSyCqQxG3K9MI6vbSexVoK8zM7Xak2uQoYMo</string>
+    <string name="google_app_id" translatable="false">1:574819435959:android:32b09144244e6bc2a7d432</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCqQxG3K9MI6vbSexVoK8zM7Xak2uQoYMo</string>
+    <string name="google_storage_bucket" translatable="false">prodaja-karata.appspot.com</string>
+    <string name="project_id" translatable="false">prodaja-karata</string>
+</resources>
